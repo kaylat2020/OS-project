@@ -1,0 +1,13 @@
+// This program adds 25 and 5 together,
+// and then stores the result at memory
+// address 18
+//
+load_const 18
+move_to_mar
+load_const 25
+move_to_mbr
+load_const 5
+add
+move_to_mbr
+write_at_addr
+exit
