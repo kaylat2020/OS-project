@@ -1,0 +1,15 @@
+// This program should result in the
+// integer 3 being stored at memory
+// address 1
+//
+load_const 1
+move_to_mar
+load_const 25
+move_to_mbr
+load_const -22
+add
+ifgo 8
+load_const 10
+move_to_mbr
+write_at_addr
+exit
