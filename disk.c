@@ -121,7 +121,7 @@ int extract_argument(char* instruction)
 // helper function to calculate the "size" of a program in memory
 int size(char program_fname[]) 
 {
-	// FUCK U WINDOWS (#5) (it's personal. seriously. this took several days to debug)
+	// F U WINDOWS (#5) (it's personal. seriously. this took several days to debug)
 	program_fname[strcspn(program_fname, "\r\n")] = 0;
 
 	FILE* file = fopen(program_fname, "r");

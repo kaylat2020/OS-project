@@ -11,7 +11,7 @@
 /**
  * @author Kayla Tucker
  * @version 3.0 (12/6/2023)
- * I have a fuckton of comments so that C shenanigans dont drive me crazy
+ * I have a crapton of comments so that C shenanigans dont drive me crazy
  * now featuring several new cries for help!
  * 
  * PATCH NOTES
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
    if (argc > 2) 
    {
       printf("\nError: too many command line arguments given.\n"
-         "Maybe read the fucking manual (readme.md) next time?\n\n");
+         "Maybe RTFM (readme.md) next time?\n\n");
       exit(1);
    }
 
